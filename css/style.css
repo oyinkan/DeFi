@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Graphik-Regular";
+    src: url("webfont/Graphik-Regular.eot");
+    src: 
+    url("webfont/Graphik-Regular.woff") format("woff"),
+    url("webfont/Graphik-Regular.ttf") format("opentype"),
+    url("webfont/Graphik-Regular.svg") format("svg");
+}
+body {
+    font-family: Graphik-Regular!important;
+}
+#summit-div {
+    padding-top: 30px;
+}
+.defi-summit {
+    padding: 60px 0;
+}
+.defi-summit h5 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: normal;
+    color: #19377d;
+    margin-top: 30px;
+}
+.defi-summit p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #697381;
+    margin-top: 20px;
+}
+.btn.btn-info.btn-submit,
+.btn.btn-info.btn-apply {
+    border-radius: 31.6px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+}
+.btn.btn-info.btn-submit {
+    letter-spacing: 0.2px;
+    background: transparent;
+    border: 2.8px solid #0636ff;
+    color: #19377d;  
+}
+nav ul li a {
+    opacity: 0.78;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #45566e;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+/* about */
+#about-event {
+    background: url(./../images/about.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 100px 0;
+    color: #fff;
+}
+.about-div {
+    width: 95%;
+}
+.about-div div {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.about-div h2 {
+    width: 85%;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.07;
+    margin-bottom: 30px;
+}
+.about-div p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.event-details h6 {
+    opacity: 0.68;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+.event-details p {
+    width: 75%;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.29;
+    margin-bottom: 60px;
+}
+.p-2 {
+    padding: 1rem 3.5rem 1rem 0!important;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+/* summit agenda */
+.summit-agenda {
+    background-color: #282d42;
+    padding: 40px 0;
+    color: #fff;
+}
+.summit-agenda h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.summit-agenda p {
+    width: 68%;
+    font-size: 24px;
+    line-height: 1.42;
+}
+.summit-timetable {
+    padding: 50px 0;
+    color: #2c3f58;
+}
+.container-fluid {
+    width: 96%;
+}
+.summit-timetable h3 {
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 3.4px;
+    font-size: 25.8px;
+    font-weight: 600;
+    color: #2c3f58; 
+}
+.main-stage {
+    background-color: #ffe8c3;
+}
+.round-tables {
+    background-color: #e3edff;
+}
+.demo {
+    background-color: #ffd4db;
+}
+.launchpad {
+    background-color: #9edbc4;
+}
+.summit-timetable h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.summit-timetable p {
+    width: 87%;
+    font-size: 12px;
+    line-height: 1.38;
+    color: #697381;
+    margin-top: 15px;
+    height: 60px;
+}
+.summit-timetable h5 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+.summit-timetable h5 span {
+    position: relative;
+    top: -2px;
+}
+.summit-timetable h5 span.arrow {
+    font-family: LucidaGrande;
+    font-weight: normal;
+    color: #b2b2b3;
+}
+.summit-timetable h6 {
+    width: 90%;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    color: #6e7682;
+}
+.summit-timetable div {
+    margin-bottom: 30px;
+}
+.btn.btn-info.btn-more {
+    background: transparent;
+    border-radius: 4.8px;
+    border: 1px solid #0735ff;
+    font-size: 16px;
+    color: #0735ff;
+    padding: 10px 50px;
+    margin-top: -30px;
+}
+
+/* proposal section */
+#proposal-call .row {
+    margin-right: 0;
+}
+#proposal-call .proposals {
+    background-color: rgba(236, 239, 254, 0.58);
+    padding: 60px 60px 80px 120px;
+}
+.proposals h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.13;
+    color: #0735ff;
+}
+.proposals p {
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #212731;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.proposals.invite {
+    background-color: transparent!important;
+    background: url(./../images/invite.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.btn.btn-info.btn-apply {
+    border-radius: 31.6px;
+    background-color: #0735ff;
+    color: #fff;
+}
+
+/* speakers section */
+#speakers-div {
+    background: url(./../images/speakers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 100px 0;
+    color: #fff;
+}
+.speakers-list {
+    margin-top: 50px;
+}
+#speakers-div h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+#spaekers-div h5,
+#speakers-div p,
+#speakers-div h6 {
+    font-size: 14px;
+}
+#speakers-div h5 {
+    font-weight: 500;
+    margin-top: 15px;
+}
+#speakers-div p {
+    font-weight: 300;
+}
+#speakers-div h6 {
+    line-height: 1.57;
+}
+
+/* Organizers */
+#organizers-div,
+#past-events {
+    padding: 60px 0 50px 0;
+} 
+#organizers-div {
+    background-color: #f8fafc;
+}
+.organizers {
+    color: #1f3357;
+}
+.organizers h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.63;
+}
+.organizers p {
+    width: 49%;
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+/* Past events */
+.organizers.past-events p {
+    width: 87%;
+}
+.events-list {
+    width: 80%;
+    margin-top: 70px;
+}
+.card-header {
+    padding: 0;
+}
+.card-body h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1f3357;        
+}
+.card-body p,
+.card-body p a {
+    opacity: 0.91;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #697381;
+    padding-bottom: 15px; 
+}  
+.card-body p span {
+    font-weight: 500;
+    color: #212731;
+}
+.card-body p a {
+    text-decoration: underline;
+}
+.card-body a.watch  {
+    font-size: 12px;
+    font-weight: 500;
+    color: #697381;
+}
+footer {
+    background-color: #0735ff;
+    padding: 40px 0 80px 0;
+    color: #fff;
+}
+footer .contact p {
+    width: 55%;
+    font-size: 19.2px;
+    line-height: 1.42;
+}
+footer .contact p a{
+    font-size: 28.8px;
+    font-weight: 500;
+    line-height: 1.47;
+    color: #fff;
+}
+footer .flex-fill a {
+    font-size: 14px;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+}

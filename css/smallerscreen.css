@@ -5,6 +5,9 @@
     .events-list {
         width: 90%;
     }
+    .launchpad-div {
+        height: auto;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	.navbar-expand-sm .navbar-nav .nav-link {

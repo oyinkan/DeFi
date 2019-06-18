@@ -1,12 +1,89 @@
+@media screen and (max-width: 570px) {
+    .organizers .mt-10 {
+        margin-top: 0;
+    }
+    .events-list {
+        width: 90%;
+    }
+}
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	.navbar-expand-sm .navbar-nav .nav-link {
         padding-left: 20px;
         padding-right: 20px;  
     }
+    .events-list {
+        width: auto;
+    }
 }
-@media screen and (max-width: 1000px) {
-    
+@media screen and (max-width: 765px) {
+    .defi-summit h5,
+    .proposals h2,
+    footer .contact p a {
+        font-size: 27px;
+    }
+    .defi-summit p,
+    .about-div p,
+    .event-details h6,
+    .summit-timetable h4 {
+        font-size: 17px;
+    }
+    .btn.btn-info.btn-submit, 
+    .btn.btn-info.btn-apply,
+    nav ul li a,
+    .proposals p {
+        font-size: 15px;
+    }
+    .about-div h2,
+    .summit-agenda h2,
+    #speakers-div h2 {
+        font-size: 40px;
+    }
+    .event-details p {
+        font-size: 25px;
+    }
+    .event-details .p-2,
+    .organizers .p-2 {
+        padding: .5rem!important;
+    }
+    .summit-agenda p {
+        width: 90%;
+        font-size: 21px;
+    }
+    .summit-timetable h3,
+    .card-body h4 {
+        font-size: 22.8px;
+    }
+    #proposal-call .proposals {
+        padding: 60px 40px 80px 40px;
+    }
+    .speakers-list img,
+    .events-list .card {
+        margin-top: 15px;
+    }
+    .organizers p,
+    footer .contact p {
+        width: auto;
+    }
+    footer .d-flex {
+        display: block!important;
+    }
 }
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
-	
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+	.summit-timetable h3 {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1150px) {
+	.summit-timetable h3 {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    .launchpad-div {
+        height: 210px;
+    }
 }

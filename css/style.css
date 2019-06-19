@@ -230,6 +230,7 @@ nav ul li a {
     border-radius: 31.6px;
     background-color: #0735ff;
     color: #fff;
+    margin-top: 20px;
 }
 
 /* speakers section */
@@ -343,4 +344,15 @@ footer .flex-fill a {
 }
 a:hover {
     text-decoration: none;
+}
+.another-summit-timetable {
+    display: none;
+    padding-top: 0;
+}
+.seemore {
+    margin-top: -40px;
+    margin-bottom: 80px;
+}
+.mt-30 {
+    margin-top: 30px;
 }

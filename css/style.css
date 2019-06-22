@@ -43,6 +43,10 @@ body {
     border: 2.8px solid #0636ff;
     color: #19377d;  
 }
+.btn.btn-info.btn-submit:hover {
+    background: #0636ff;
+    color: #fff;
+}
 nav ul li a {
     opacity: 0.78;
     font-size: 18px;
@@ -150,7 +154,7 @@ nav ul li a {
     background-color: #9edbc4;
 }
 .launchpad-div {
-    height: 150px;
+    height: 160px;
 }
 .summit-timetable h4 {
     font-size: 20px;
@@ -187,15 +191,22 @@ nav ul li a {
 .summit-timetable div {
     margin-bottom: 30px;
 }
-.btn.btn-info.btn-more {
+.btn.btn-info.btn-more,
+.btn.btn-info.btn-seemore {
     background: transparent;
     border-radius: 4.8px;
-    border: 1px solid #0735ff;
     font-size: 16px;
-    color: #0735ff;
     padding: 10px 50px;
+}
+.btn.btn-info.btn-more { 
+    border: 1px solid #0735ff;
+    color: #0735ff;
     margin-top: -30px;
 }
+/*.btn.btn-info.btn-more:hover {
+    background: #0735ff;
+    color: #fff;
+}*/
 
 /* proposal section */
 #proposal-call .row {
@@ -230,7 +241,11 @@ nav ul li a {
     border-radius: 31.6px;
     background-color: #0735ff;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 28px;
+}
+.btn.btn-info.btn-apply:hover {
+    background: transparent;
+    color: #0735ff;
 }
 
 /* speakers section */
@@ -262,6 +277,11 @@ nav ul li a {
 }
 #speakers-div h6 {
     line-height: 1.57;
+}
+.btn.btn-info.btn-seemore {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 60px;
 }
 
 /* Organizers */
@@ -345,7 +365,8 @@ footer .flex-fill a {
 a:hover {
     text-decoration: none;
 }
-.another-summit-timetable {
+.another-summit-timetable,
+.another-speakers-list {
     display: none;
     padding-top: 0;
 }
@@ -355,4 +376,8 @@ a:hover {
 }
 .mt-30 {
     margin-top: 30px;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
 }

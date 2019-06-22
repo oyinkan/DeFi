@@ -25,6 +25,17 @@ $("#seemore").click(function() {
     }
 });
 
+$("#see-more").click(function() {
+    var elem = $("#see-more").text();
+    if (elem == "SEE MORE") {
+        $("#see-more").text("SEE LESS");
+        $(".another-speakers-list").slideDown();
+    } else {
+        $("#see-more").text("SEE MORE");
+        $(".another-speakers-list").slideUp();
+    }
+});
+
 $("footer .d-flex a").on('click', function(event) {
     event.preventDefault();
 

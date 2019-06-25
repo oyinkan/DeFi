@@ -36,7 +36,7 @@ body {
     font-weight: normal;
     line-height: normal;
     color: #19377d;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .defi-summit p {
     font-size: 20px;
@@ -44,7 +44,10 @@ body {
     letter-spacing: 0.2px;
     text-transform: uppercase;
     color: #697381;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+.mb-20 {
+    margin-bottom: 20px;
 }
 .btn.btn-info.btn-submit,
 .btn.btn-info.btn-apply {
@@ -81,7 +84,7 @@ nav ul li a {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 70px 0 100px 0;
+    padding: 70px 0 130px 0;
     color: #fff;
 }
 .about-div {
@@ -98,6 +101,7 @@ nav ul li a {
     font-weight: 600;
     line-height: 1.07;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 .about-div p {
     font-size: 20px;

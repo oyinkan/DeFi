@@ -14,6 +14,14 @@
     url("webfont/Graphik-Semibold.ttf") format("opentype"),
     url("webfont/Graphik-Semibold.svg") format("svg");
 }
+@font-face {
+    font-family: "Graphik-Medium";
+    src: url("webfont/Graphik-Medium.eot");
+    src: 
+    url("webfont/Graphik-Medium.woff") format("woff"),
+    url("webfont/Graphik-Medium.ttf") format("opentype"),
+    url("webfont/Graphik-Medium.svg") format("svg");
+}
 body {
     font-family: Graphik-Regular!important;
 }
@@ -105,7 +113,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 .event-details p {
-    font-family: Graphik-Semibold!important;
+    font-family: Graphik-Medium!important;
     width: 75%;
     font-size: 28px;
     font-weight: 600;

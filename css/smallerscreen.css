@@ -91,6 +91,9 @@
     footer .d-flex {
         display: block!important;
     }
+    .event-details p {
+        width: auto;
+    }
 }
 
 

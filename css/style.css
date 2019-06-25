@@ -6,6 +6,14 @@
     url("webfont/Graphik-Regular.ttf") format("opentype"),
     url("webfont/Graphik-Regular.svg") format("svg");
 }
+@font-face {
+    font-family: "Graphik-Semibold";
+    src: url("webfont/Graphik-Semibold.eot");
+    src: 
+    url("webfont/Graphik-Semibold.woff") format("woff"),
+    url("webfont/Graphik-Semibold.ttf") format("opentype"),
+    url("webfont/Graphik-Semibold.svg") format("svg");
+}
 body {
     font-family: Graphik-Regular!important;
 }
@@ -76,6 +84,7 @@ nav ul li a {
     margin-bottom: 50px;
 }
 .about-div h2 {
+    font-family: Graphik-Semibold!important;
     width: 85%;
     font-size: 60px;
     font-weight: 600;
@@ -96,6 +105,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 .event-details p {
+    font-family: Graphik-Semibold!important;
     width: 75%;
     font-size: 28px;
     font-weight: 600;
